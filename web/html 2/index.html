@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Знакомство с Html тегами. Часть №3 (Формы)</title>
+  </head>
+  <body>
+<form action="#" method="POST" enctype="multipart/form-data">
+    <div> Имя <br>
+      <p><input type="text" name="username"></p>
+    </div><br>
+    <div> Пароль <br>
+      <p><input type="password" name="Пароль"></p>
+    </div><br>
+    <div> Телефон <br>
+      <p><input type="tel" name="telephone"></p>
+    </div><br>
+    <div> Пол <br>
+      <p><input checked type="radio" name="sex" value="Male">Мужской</p>
+      <p><input type="radio" name="sex" value="Female">Женский</p>
+    </div> <br>
+    <div> Имущество <br>
+      <p><input type="checkbox" name="haver">Велик</p>
+      <p><input type="checkbox" name="haver2">Машина</p>
+      <p><input type="checkbox" name="haver3">Квартира</p>
+    </div> <br>
+    <div> Дополнительная информация <br>
+    <br>  <textarea name="textarea"></textarea>
+    </div> <br>
+    <div> Прикрипить фото <br>
+      <p><input type="file" name="" value=""></p>
+    </div>
+    <div> Любимый цвет <br>
+      <select name="colore">
+        <option value="Red">Красный</option>
+        <option value="Green">Зеленый</option>
+        <option selected value="Blue">Синий</option>
+      </select>
+    </div>
+    <div> Действие <br>
+      <button type="submit" name="button">Отправить</button>
+      <button type="reset" name="button">Очистить</button>
+    </div>
+</form>
+  </body>
+</html>

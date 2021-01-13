@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: -1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*-----------------------------------------------*/
+
+body {
+   background-color: #e8e8e8;
+}
+
+.content {
+   padding: 125px 0 103px 0;
+   max-width: 842px;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+   font-size: 20px;
+   color: #273d46;
+   line-height: 36px;
+   margin: 0 0 30px 0;
+}
+
+.list li{
+   background: url('../img/check_icon.png')left 8px no-repeat;
+   padding-left: 30px;
+}
+
+.list li:nth-child(1){
+   text-decoration: line-through;
+}
+
+.list li:nth-child(1):hover{
+   text-decoration: none;
+}
+
+.list li:nth-child(2){
+   font-weight: bold;
+}
+
+.list li:nth-child(2):hover{
+   color: #d55a5a;
+   background:url('../img/check_icon red.png')left 8px no-repeat;
+}
+
+.list li:nth-child(3){
+   font-style: italic;
+}
+
+.list li:nth-child(3):hover{
+   font-style: normal;
+}
+
+.list li:nth-child(4){
+   text-transform: uppercase;
+}
+
+.list li:nth-child(4):hover{
+   text-transform: none;
+}
+
+.button {
+   height: 44px;
+   display: inline-block;
+   line-height: 44px;
+   padding: 0 30px;
+   border-radius: 24px;
+   background-color: #80b7b3;
+   box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+   color: #ffffff;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   margin: 0 0 30px 0;
+}
+
+.button span{
+   padding-right: 30px;
+   background: url('../img/Shape_2.svg') right no-repeat;
+}
+
+.button:hover{
+   box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+   background-color: #3a5856;
+}
+
+.button:active{
+   background-color: #818181;
+}
+
+.content_text{
+   width: 292px;
+   height: 50px;
+   border: 1px solid #b0b0b0;
+}
+
+.content_text:focus{
+   box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+}

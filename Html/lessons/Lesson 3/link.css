@@ -1,0 +1,9 @@
+:link {
+  color:#f70;
+}
+a.Google:link {
+  color: #666;
+}
+a.blang:link:after {
+  content: '⇱';
+}

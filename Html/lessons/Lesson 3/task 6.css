@@ -1,0 +1,10 @@
+input + label {
+  color: green;
+  text-decoration: underline;
+}
+
+input:checked + label {
+  color: white;
+  background: red;
+  text-decoration: none;
+}
