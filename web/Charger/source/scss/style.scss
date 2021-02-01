@@ -1,5 +1,52 @@
 @import "_nullstyle";
 
+@font-face {
+   font-family: "Lucida Grande";
+   src: url("../fonts/8291.eot");
+   src: local("☺"), url("../fonts/8291.woff") format("woff"), url("../fonts/8291.ttf") format("truetype"),
+      url("../fonts/8291.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "SF Compact Text - SemiBold";
+   src: url("../fonts/FontsFree-Net-SFCompactText-SemiBold.eot");
+   src: local("☺"), url("../fonts/FontsFree-Net-SFCompactText-SemiBold.woff") format("woff"),
+      url("../fonts/FontsFree-Net-SFCompactText-SemiBold.ttf") format("truetype"),
+      url("../fonts/FontsFree-Net-SFCompactText-SemiBold.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "MyriadPro";
+   src: url("../fonts/MyriadPro-Regular.eot");
+   src: local("☺"), url("../fonts/MyriadPro-Regular.woff") format("woff"),
+      url("../fonts/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "MyriadPro - Semibold";
+   src: url("../fonts/MyriadPro-Semibold.eot");
+   src: local("☺"), url("../fonts/MyriadPro-Semibold.woff") format("woff"),
+      url("../fonts/MyriadPro-Semibold.ttf") format("truetype"), url("../fonts/MyriadPro-Semibold.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Helvetica Neue";
+   src: url("../fonts/helveticaneuecyr-thin.eot");
+   src: local("☺"), url("../fonts/helveticaneuecyr-thin.woff") format("woff"),
+      url("../fonts/helveticaneuecyr-thin.ttf") format("truetype"),
+      url("../fonts/helveticaneuecyr-thin.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
 .card__bg {
    background: url("../img/Background/Bg.jpg") no-repeat;
    background-size: cover;
@@ -36,14 +83,14 @@
 .content__title {
    margin: 106px 0px 28px 0px;
    color: white;
-   font-family: "Myriad Pro";
+   font-family: "MyriadPro";
    font-size: 32px;
    line-height: 32px;
    padding: 0px 0px 0px 80px;
-   background: url("../img/ico/Search_Iconw.svg") left no-repeat;
+   background: url("../img/ico/Search_iconw.png") left no-repeat;
    p {
       color: #fff;
-      font-family: "Myriad Pro - Semibold";
+      font-family: "MyriadPro - Semibold";
       font-size: 32px;
       font-weight: 600;
       line-height: 32px;
@@ -89,7 +136,7 @@
    background: rgba(0, 0, 0, 0);
    border: 2px solid #fff;
    height: 48px;
-   font-family: "Myriad Pro";
+   font-family: "MyriadPro";
    width: 296px;
    color: #fff;
    font-size: 16px;
@@ -97,7 +144,7 @@
    padding: 0px 0px 0px 10px;
    &::-webkit-input-placeholder {
       color: #ffffff;
-      font-family: "Myriad Pro";
+      font-family: "MyriadPro";
       font-size: 16px;
       line-height: 24px;
       padding: 0px 0px 0px 0px;
@@ -106,14 +153,14 @@
 
 .form__title {
    color: #ffffff;
-   font-family: "Myriad Pro";
+   font-family: "MyriadPro";
    font-size: 16px;
    line-height: 24px;
    margin-bottom: 12px;
 }
 .form__btn {
    color: #3cd072;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 16px;
    font-weight: 400;
    line-height: 24px;
@@ -169,7 +216,7 @@
 }
 .second__content-title {
    color: #3cd072;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    font-weight: 600;
    line-height: 70px;
@@ -212,14 +259,14 @@
 }
 .title__mini {
    color: #000000;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    line-height: 32px;
    margin: 31px 0px 0px 0px;
 }
 .title__title {
    color: #3cd072;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 36px;
    line-height: 32px;
    margin: 16px 0px 0px 0px;
@@ -235,7 +282,7 @@
 }
 
 .column__title-1 {
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    line-height: 32px;
    margin: 31px 10px 50px 0px;
@@ -245,7 +292,7 @@
 }
 
 .column__title-2 {
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    line-height: 32px;
    margin: 31px 0px 50px 0px;
@@ -253,7 +300,7 @@
 }
 
 .column__title-3 {
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    line-height: 32px;
    margin: 31px 0px 50px 0px;
@@ -272,13 +319,13 @@
 }
 .fourth__title {
    color: #ffffff;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 24px;
    padding: 79px 0px 16px 0px;
 }
 .fourth__minititle {
    color: #3cd072;
-   font-family: "Myriad Pro - Semibold";
+   font-family: "MyriadPro - Semibold";
    font-size: 36px;
    padding: 0px 0px 52px 0px;
 }
@@ -314,7 +361,7 @@
    margin: 0 0px 0 auto;
 }
 .fiveth__title {
-   font-family: MyriadPro;
+   font-family: "MyriadPro";
    font-size: 36px;
    color: #ffffff;
    line-height: 72px;
@@ -323,7 +370,7 @@
    background: url("../img/ico/Business.png") left no-repeat;
 }
 .fiveth__text {
-   font-family: HelveticaNeue;
+   font-family: "Helvetica Neue";
    width: 452px;
    height: auto;
    font-size: 16px;
@@ -331,7 +378,7 @@
    margin: 0px 0px 53px 0px;
 }
 .fiveth__list {
-   font-family: MyriadPro;
+   font-family: "MyriadPro";
    width: 375px;
    font-size: 24px;
    line-height: 24px;
@@ -372,7 +419,7 @@
    margin: 0 auto;
 }
 .six__title {
-   font-family: MyriadPro;
+   font-family: "MyriadPro";
    font-size: 24px;
    line-height: 24px;
    font-weight: 600;
@@ -381,7 +428,7 @@
 .six__form input {
    border: 2px solid #3cd072;
    height: 48px;
-   font-family: "Myriad Pro";
+   font-family: "MyriadPro";
    width: 696px;
    color: #3cd072;
    font-size: 16px;
@@ -389,14 +436,14 @@
    padding: 0px 0px 0px 10px;
    &::-webkit-input-placeholder {
       color: #3cd072;
-      font-family: "Myriad Pro";
+      font-family: "MyriadPro";
       font-size: 16px;
       line-height: 24px;
       padding: 0px 0px 0px 0px;
    }
 }
 .six__btn {
-   font-family: MyriadPro;
+   font-family: "MyriadPro";
    font-size: 16px;
    line-height: 24px;
    font-weight: 600;
@@ -405,4 +452,366 @@
    background-color: #000;
    border-radius: 5px;
    margin: 0px 0px 0px 24px;
+}
+
+.seven__container {
+   max-width: 936px;
+   min-height: 2025 px;
+   margin: 0 auto;
+}
+.seven__icon {
+   text-align: center;
+   margin: 72px 0px 28px 0px;
+}
+.seven__title {
+   text-align: center;
+   font-family: "MyriadPro";
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 600;
+   margin: 0px 0px 16px 0px;
+}
+.seven__minititle {
+   text-align: center;
+   font-family: "MyriadPro";
+   font-size: 36px;
+   line-height: 32px;
+   font-weight: 600;
+   color: #3cd072;
+   margin: 0px 0px 43px 0px;
+}
+.seven__text {
+   text-align: center;
+   max-width: 650px;
+   font-family: "Helvetica Neue";
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   margin: 0px auto 59px;
+}
+.watch {
+   text-align: center;
+}
+.watch__watch {
+}
+.watch__img1 {
+}
+.watch__img2 {
+}
+.watch__img3 {
+}
+.watch__img4 {
+}
+.watch__img5 {
+}
+.watch__img6 {
+}
+.seven__button {
+   margin: 80px 0px 142px 0px;
+   text-align: center;
+}
+.btn__seevn {
+   font-family: "MyriadPro";
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 600;
+   color: #3cd072;
+   padding: 12px 75px;
+   background-color: #000;
+   border-radius: 5px;
+}
+.cards__title {
+   font-family: "MyriadPro";
+   font-size: 36px;
+   line-height: 32px;
+   font-weight: 600;
+   color: #3cd072;
+}
+.seven__card1 {
+   display: flex;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   padding: 24px 0px 14px 0px;
+   margin: 17px 0px 0px 0px;
+}
+.avatar {
+   padding: 0px 23px 0px 0px;
+}
+
+.bio {
+   width: 370px;
+   .name {
+      margin: 0 70px 12px 24px;
+      font-family: "MyriadPro";
+      font-size: 32px;
+      font-weight: 600;
+      color: #3cd072;
+   }
+   .from {
+      margin: 12px 27px 10px 23px;
+      font-family: "Helvetica Neue";
+      font-size: 24px;
+      color: #000000;
+   }
+   .reviews {
+   }
+}
+
+.counter__text {
+   margin: 3px 164px 23px 15px;
+   font-family: "Helvetica Neue";
+   font-size: 24px;
+   line-height: 1.33;
+   color: #000000;
+}
+.counter__score {
+   margin: 17px 0 0 17px;
+   font-family: "Helvetica Neue";
+   font-size: 68px;
+   line-height: 0.71;
+   font-weight: 100;
+   padding: 0px 0px 0px 55px;
+   background: url("/img/watch/icon_icon.png") left no-repeat;
+}
+.seven__card2 {
+   margin: 24px 0px 0px 0px;
+   display: flex;
+   border-bottom: 1px solid black;
+   padding: 0px 0px 14px 0px;
+}
+.seven__card3 {
+   margin: 24px 0px 0px 0px;
+   display: flex;
+   border-bottom: 1px solid black;
+   padding: 0px 0px 14px 0px;
+}
+.seven__card4 {
+   margin: 24px 0px 0px 0px;
+   display: flex;
+   border-bottom: 1px solid black;
+   padding: 0px 0px 14px 0px;
+}
+.seven__card5 {
+   margin: 24px 0px 95px 0px;
+   display: flex;
+   border-bottom: 1px solid black;
+   padding: 0px 0px 14px 0px;
+}
+
+.eight__card {
+   background-color: #000;
+   height: 192px;
+}
+.eight__bg {
+   max-width: 959px;
+   margin: 0 auto;
+}
+.eight__title {
+   color: #3bd071;
+   font-family: "MyriadPro";
+   font-size: 24px;
+   line-height: 24px;
+   font-weight: 600;
+   padding: 55px 0px 19px 0px;
+}
+.eight__form input {
+   border: 0 solid #3cd072;
+   height: 48px;
+   font-family: "MyriadPro";
+   width: 696px;
+   color: #3cd072;
+   font-size: 16px;
+   line-height: 48px;
+   padding: 0px 0px 0px 10px;
+   &::-webkit-input-placeholder {
+      color: #3cd072;
+      font-family: "MyriadPro";
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 0px 0px 0px;
+   }
+}
+.eight__btn {
+   font-family: "MyriadPro";
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 600;
+   color: #fff;
+   padding: 12px 75px;
+   background-color: #3cd072;
+   border-radius: 5px;
+   margin: 0px 0px 0px 24px;
+}
+
+.nine__bg {
+   background: url("../img/Background/bg9.png");
+   min-height: 624px;
+   background-size: cover;
+   background-position: centre;
+   a {
+      color: #fff;
+   }
+}
+
+.nine__container {
+   display: flex;
+   max-width: 959px;
+   margin: 0 auto;
+   max-height: 624px;
+}
+.nine__description {
+   max-width: 456px;
+   display: flex;
+   flex-direction: column;
+}
+.nine__title {
+   padding: 95px 0px 0px 0px;
+   font-family: "MyriadPro";
+   font-size: 36px;
+   line-height: 32px;
+   font-weight: 600;
+}
+.inpt__name input {
+   border: 0 solid #3cd072;
+   height: 48px;
+   font-family: "MyriadPro";
+   width: 456px;
+   color: #3cd072;
+   font-size: 16px;
+   line-height: 48px;
+   padding: 0px 0px 0px 10px;
+   margin: 24px 0px 24px 0px;
+   &::-webkit-input-placeholder {
+      color: #3cd072;
+      font-family: "MyriadPro";
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 0px 0px 0px;
+   }
+}
+.inpt__email input {
+   border: 0 solid #3cd072;
+   height: 48px;
+   font-family: "Myriad Pro";
+   width: 456px;
+   color: #3cd072;
+   font-size: 16px;
+   line-height: 48px;
+   padding: 0px 0px 0px 10px;
+   margin: 0px 0px 24px 0px;
+   &::-webkit-input-placeholder {
+      color: #3cd072;
+      font-family: "MyriadPro";
+      font-size: 16px;
+      line-height: 24px;
+      padding: 0px 0px 0px 0px;
+   }
+}
+.inpt__textarea textarea {
+   font-family: "MyriadPro";
+   width: 456px;
+   height: 192px;
+   color: #3cd072;
+   font-size: 16px;
+   line-height: 24px;
+   padding: 11px 0px 0px 10px;
+   word-wrap: wrap;
+   margin: 0px 0px 24px 0px;
+   resize: none;
+   &::-webkit-input-placeholder {
+      color: #3cd072;
+      font-family: "MyriadPro";
+      font-size: 16px;
+      line-height: 24px;
+   }
+}
+.nine__btn {
+   display: inline-block;
+   font-family: "MyriadPro";
+   max-width: 216px;
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 600;
+   color: #3cd072;
+   padding: 12px 75px;
+   background-color: #000;
+   border-radius: 5px;
+   margin: 0px 0px 0px 0px;
+   a {
+      color: #fff;
+   }
+}
+.contacts {
+   margin: 0px 0px 0px 104px;
+   display: flex;
+   flex-direction: column;
+}
+.contact__title {
+   padding: 95px 0px 0px 0px;
+   font-family: "MyriadPro";
+   font-size: 36px;
+   line-height: 32px;
+   font-weight: 600;
+}
+.facebook {
+   margin: 17px 0px 0px 0px;
+   font-family: "MyriadPro";
+   font-size: 24px;
+   line-height: 48px;
+   font-weight: 600;
+   color: #ffffff;
+   padding: 0px 0px 0px 60px;
+   background: url("../img/watch/facebook.png") left no-repeat;
+}
+.twittr {
+   margin: 17px 0px 0px 0px;
+   font-family: "MyriadPro";
+   font-size: 24px;
+   line-height: 48px;
+   font-weight: 600;
+   color: #ffffff;
+   padding: 0px 0px 0px 60px;
+   background: url("../img/watch/twit.png") left no-repeat;
+}
+.vkontakte {
+   margin: 17px 0px 0px 0px;
+   font-family: "MyriadPro";
+   font-size: 24px;
+   line-height: 48px;
+   font-weight: 600;
+   color: #ffffff;
+   padding: 0px 0px 0px 60px;
+   background: url("../img/watch/vk.png") left no-repeat;
+}
+
+.footer {
+   display: flex;
+   height: 170px;
+   max-width: 959px;
+   margin: 0 auto;
+}
+.footer__container {
+   display: flex;
+   min-width: 959px;
+   justify-content: space-between;
+}
+.footer__icons {
+   display: flex;
+   align-items: center;
+}
+.icon1 {
+   display: flex;
+}
+.icon2 {
+   display: flex;
+   margin: 15px;
+}
+.footer__tm {
+   display: flex;
+   align-items: center;
+   font-family: "MyriadPro";
+   font-size: 16px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #909090;
 }
