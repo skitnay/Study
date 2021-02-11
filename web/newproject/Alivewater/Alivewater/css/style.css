@@ -1186,6 +1186,83 @@ body.ie ._ibg img {
   max-height: 40px;
 }
 
+.footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  width: 100%;
+}
+
+.footer__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 150px;
+  position: relative;
+}
+
+.footer__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 190px;
+}
+
+.footer__phone a {
+  color: #3E3F43;
+  text-decoration: underline;
+}
+
+.footer__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 190px;
+}
+
+.footer__email a {
+  color: #3E3F43;
+  text-decoration: underline;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 200px;
+  font-size: 20px;
+  margin: 0px 0px 30px 0px;
+}
+
+.footer__social a {
+  color: #3E3F43;
+}
+
 .page {
   position: absolute;
   width: 100%;
@@ -1508,6 +1585,7 @@ body.ie ._ibg img {
 
   .page {
     top: 50px;
+    height: 95%;
   }
 }
 
@@ -1515,6 +1593,44 @@ body.ie ._ibg img {
   ._container {
     max-width: none;
     padding: 0 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 750px;
+    left: 50%;
+  }
+
+  .footer__logo {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .footer__phone {
+    margin: 0px 0px 30px 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer__email {
+    margin: 0px 0px 30px 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1530,7 +1646,6 @@ body.ie ._ibg img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 900px;
   }
 
   .menu__list li {
