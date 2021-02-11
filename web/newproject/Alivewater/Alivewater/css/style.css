@@ -1083,17 +1083,17 @@ body.ie ._ibg img {
   border-radius: 50%;
   border: 2px solid #263c5c;
   color: #263c5c;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: border, color 0.4s;
+  -o-transition: border, color 0.4s;
+  transition: border, color 0.4s;
 }
 
 .contacts .vk:hover {
   color: #6A90C8;
   border: 2px solid #6A90C8;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: color, border 0.4s;
+  -o-transition: color, border 0.4s;
+  transition: color, border 0.4s;
 }
 
 .contacts .odnoklasniki {
@@ -1103,17 +1103,17 @@ body.ie ._ibg img {
   border-radius: 50%;
   border: 2px solid #263c5c;
   color: #263c5c;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: border, color 0.4s;
+  -o-transition: border, color 0.4s;
+  transition: border, color 0.4s;
 }
 
 .contacts .odnoklasniki:hover {
   color: #DE862F;
   border: 2px solid #DE862F;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: border, color 0.4s;
+  -o-transition: border, color 0.4s;
+  transition: border, color 0.4s;
 }
 
 .contacts .whatsapp {
@@ -1123,17 +1123,17 @@ body.ie ._ibg img {
   border-radius: 50%;
   border: 2px solid #263c5c;
   color: #263c5c;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: border, color 0.4s;
+  -o-transition: border, color 0.4s;
+  transition: border, color 0.4s;
 }
 
 .contacts .whatsapp:hover {
   color: #83CB79;
   border: 2px solid #83CB79;
-  -webkit-transition: color 0.4s;
-  -o-transition: color 0.4s;
-  transition: color 0.4s;
+  -webkit-transition: border, color 0.4s;
+  -o-transition: border, color 0.4s;
+  transition: border, color 0.4s;
 }
 
 .hide {
