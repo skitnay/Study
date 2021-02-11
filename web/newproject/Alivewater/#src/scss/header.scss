@@ -50,12 +50,13 @@
 
 .header {
    &__menu {
-      max-width:1150px;
+      max-width:1180px;
       margin: 0 auto;
+      padding: 0px 15px;
    }
-   @media (max-width:767px){
+   @media (max-width:900px){
       position: relative;
-      max-width: 767px;
+      max-width: 900px;
       z-index: 5;
       &__menu {
          height: 50px;
@@ -94,7 +95,7 @@
       color: #3E3F43;
       text-align: start;
    }
-   @media (max-width:767px) {
+   @media (max-width:900px) {
       position: fixed;
       top: 0px;
       left: 50%;
@@ -129,7 +130,7 @@
       border-bottom: 1px solid #263c5c;
       }
    }
-   @media (max-width:767px) {
+   @media (max-width:900px) {
       position: absolute;
    &__row {
    }
@@ -149,9 +150,11 @@
          }
       }
    &__list {
+      display: flex;
       flex-direction: column;
-      align-items:center;
-      justify-content: center;
+      justify-content:center;
+      align-items: center;
+      width: 900px;
       li {
          padding: 0px 0px 35px;
          }
@@ -166,6 +169,7 @@
          flex-direction: column;
          align-items:center;
          justify-content: center;
+         width: 900px;
          li {
             padding: 0px 0px 15px;
             }
@@ -184,7 +188,7 @@
 }
 .icon-menu {
 	display: none;
-	@media (max-width:767px) {
+	@media (max-width:900px) {
 		display: block;
 		position: absolute;
 		top: 15px;
@@ -233,7 +237,7 @@
    width: 166px;
    justify-content: space-between;
    align-items: center;
-   @media (max-width:767px){
+   @media (max-width:900px){
       position: fixed;
       top: 80%;
       left: 0;
@@ -253,7 +257,7 @@
          border: 2px solid #6A90C8;
          transition: 0.4s;
       }
-      @media (max-width:767px){
+      @media (max-width:900px){
          font-size: 30px;
          margin: 0px 10px;
       }
@@ -271,7 +275,7 @@
          border: 2px solid #DE862F;
          transition: 0.4s;
       }
-      @media (max-width:767px){
+      @media (max-width:900px){
          font-size: 30px;
          margin: 0px 10px;
       }
@@ -289,7 +293,7 @@
          border: 2px solid #83CB79;
          transition: 0.4s;
       }
-      @media (max-width:767px){
+      @media (max-width:900px){
          font-size: 30px;
          margin: 0px 10px;
       }
@@ -298,7 +302,7 @@
 
 .hide {
    position: none;
-   @media (max-width:767px){
+   @media (max-width:900px){
       position: relative;
       justify-content:center;
       align-items: center;
