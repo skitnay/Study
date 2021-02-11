@@ -924,15 +924,10 @@ body.ie ._ibg img {
   font-size: 20px;
 }
 
-.popup__content {
-  width: 100%;
-}
-
 .popup__body {
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -952,13 +947,13 @@ body.ie ._ibg img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 
 .popup__title {
   font-size: 30px;
   font-weight: 600;
-  margin: 0px 0px 20px 0px;
+  min-width: 200px;
+  margin: 0px 0px 30px 0px;
   color: #263c5c;
 }
 
@@ -982,36 +977,43 @@ body.ie ._ibg img {
 
 .form__input {
   padding: 10px 0px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 0px;
   background-color: #fff;
   font-size: 16px;
-  width: 50%;
-  color: #fff;
+  width: 60%;
+  min-width: 250px;
+  color: #000;
 }
 
 .form__input::-webkit-input-placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .form__input::-moz-placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .form__input:-ms-input-placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .form__input::-ms-input-placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .form__input::placeholder {
-  color: #000;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form__input._error {
+  border-bottom: 1px solid red;
 }
 
 .cantacts__btn {
+  margin: 10px 0px 5px 0px;
   width: 30%;
+  min-width: 150px;
   padding: 10px 30px;
   border-radius: 10px;
   font-size: 18px;
@@ -1019,6 +1021,16 @@ body.ie ._ibg img {
   background-color: #263c5c;
   -webkit-box-shadow: 3px 2px 10px 1px rgba(20, 20, 20, 0.6);
           box-shadow: 3px 2px 10px 1px rgba(20, 20, 20, 0.6);
+}
+
+.cantacts__btn:hover {
+  background-color: #1c2d46;
+}
+
+.cantacts__btn:active {
+  margin: 15px 0px 0px 0px;
+  -webkit-box-shadow: -2px 0px 15px 1px rgba(20, 20, 20, 0.8);
+          box-shadow: -2px 0px 15px 1px rgba(20, 20, 20, 0.8);
 }
 
 .header__menu {
@@ -1517,6 +1529,10 @@ body.ie ._ibg img {
 }
 
 @media (max-width: 900px) {
+  .popup__close {
+    font-size: 30px;
+  }
+
   .header {
     position: relative;
     max-width: 900px;
@@ -1735,6 +1751,13 @@ body.ie ._ibg img {
 
   .footer__social {
     margin: 0px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .popup__title {
+    font-size: 20px;
+    word-wrap: none;
   }
 }
 
