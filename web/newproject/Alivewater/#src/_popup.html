@@ -1,7 +1,23 @@
-<div class="popup">
+<div class="popup popup_form">
 	<div class="popup__content">
 		<div class="popup__body">
-			<div class="popup__close"></div>
+			<div class="popup__close fas fa-times"></div>
+			<form action="" class="popup__form">
+				<h1 class="popup__title">Заявка на установку</h1>
+				<div class="form__item">
+					<input id="formName" type="name" name="name" class="form__input" placeholder="Имя">
+				</div>
+				<div class="form__item">
+					<input id="formEmail" type="email" name="email" class="form__input" placeholder="Email">
+				</div>
+				<div class="form__item">
+					<input id="formPhone" type="phone" name="phone" class="form__input" placeholder="Телефон">
+				</div>
+				<div class="form__item">
+					<input id="formAdress" type="adress" name="adress" class="form__input" placeholder="Адрес установки автомата">
+				</div>
+				<button type="submit" class="cantacts__btn">Отправить</button>
+			</form>
 		</div>
 	</div>
 </div>
