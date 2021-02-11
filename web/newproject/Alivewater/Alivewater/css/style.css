@@ -1035,6 +1035,7 @@ body.ie ._ibg img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 15px;
 }
 
 .menu__link {
@@ -1181,7 +1182,7 @@ body.ie ._ibg img {
       -ms-flex-align: center;
           align-items: center;
   max-width: 1150px;
-  height: 750px;
+  height: 100%;
   margin: 0 auto;
   text-align: center;
   -webkit-box-pack: center;
