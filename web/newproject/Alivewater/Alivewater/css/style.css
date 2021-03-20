@@ -1569,7 +1569,7 @@ footer {
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
   }
 
   .menu__body {
