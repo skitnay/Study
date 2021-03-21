@@ -1569,8 +1569,7 @@ footer {
   }
 
   .menu {
-    z-index: 12;
-    overflow: hidden;
+    position: absolute;
   }
 
   .menu__body {
