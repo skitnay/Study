@@ -1,18 +1,19 @@
 footer{
    z-index: 6;
-   background-color: #fff;
 }
 //====================================================================================================
 
 //====================================================================================================
 
 .footer {
-   max-width:1180px;
-   margin: 0 auto;
-   padding: 0px 15px;
-   width: 100%;
-   z-index: 1;
+   background-color: #fff;
+
    &__row {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0px 15px;
+      width: 100%;
+      z-index: 1;
    }
 
    &__flex {
